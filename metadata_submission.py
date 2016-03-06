@@ -27,7 +27,7 @@ with open('submission_test.csv', 'wb') as csvfile:
         row.extend(cdf_pred_diastole[i])
         csvwriter.writerow(row)
         row = [str(row_num)+'_Systole']
-        row.extend(cdf_pred_diastole[i])
+        row.extend(cdf_pred_systole[i])
         csvwriter.writerow(row)
 
 
